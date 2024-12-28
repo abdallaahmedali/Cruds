@@ -1,0 +1,122 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #222;
+    color: #fff;
+    font-family: system-ui;  
+    
+
+}
+.cruds
+{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.head
+{
+   text-align: center; 
+   text-transform:uppercase ;
+}
+
+
+input 
+{
+    width: 100%;
+    margin: 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    background: #151515;
+    transition: .7s;
+    color: white;
+    text-decoration: none;
+
+}
+
+.number input
+{
+    width: 16%;
+    margin: 5px 2px;
+    padding: 7px 12px;
+  
+}
+input:focus
+{
+    background: #000;
+    transform: scale(1.1);
+}
+button
+{
+    width: 100%;
+    background: rgb(68, 1, 122);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 20px;
+    transition: .5s;
+}
+button:hover
+{
+    background:rgb(88, 10, 151) ;
+    letter-spacing: 1px;
+}
+#total
+{
+    background: rgb(213, 41, 41);
+    padding: 5px;
+    border-radius: 5px;
+
+    
+}
+#total::before
+{
+    content: 'Total: ';
+}
+.btnSearch
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button
+{
+    width: 45%;
+}
+
+table 
+{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th
+{
+    text-transform: uppercase;
+}
+th,td
+{
+    padding: 5px;
+
+}
+
+.bDelete
+{
+    margin: 10px 0 0 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
